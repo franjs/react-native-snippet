@@ -1,6 +1,6 @@
 {
   "reactNativeComponent": {
-    "prefix": "rnc",
+    "prefix": "jsrnc",
     "body": [
       "import React, { Component } from 'react';",
       "import { View, Text } from 'react-native';",
@@ -25,7 +25,7 @@
     "description": "React Native Component"
   },
   "reactNativeComponentExport": {
-    "prefix": "rnce",
+    "prefix": "jsrnce",
     "body": [
       "import React, { Component } from 'react';",
       "import { View, Text } from 'react-native';",
@@ -52,7 +52,7 @@
     "description": "React Native Component Export"
   },
   "reactNativePureComponent": {
-    "prefix": "rnpc",
+    "prefix": "jsrnpc",
     "body": [
       "import React, { PureComponent } from 'react';",
       "import {  View, Text } from 'react-native';",
@@ -77,7 +77,7 @@
     "description": "React Native PureComponent"
   },
   "reactNativePureComponentExport": {
-    "prefix": "rnpce",
+    "prefix": "jsrnpce",
     "body": [
       "import React, { PureComponent } from 'react';",
       "import {  View, Text } from 'react-native';",
@@ -104,7 +104,7 @@
     "description": "React Native PureComponent with export"
   },
   "reactNativeComponentStateLess": {
-    "prefix": "rncsl",
+    "prefix": "jsrncsl",
     "body": [
       "import React from 'react';",
       "import { Text, View } from 'react-native';",
@@ -123,7 +123,7 @@
     "description": "React Native component stateless"
   },
   "reactNativeComponentStateLessWC": {
-    "prefix": "rncslwc",
+    "prefix": "jsrncslwc",
     "body": [
       "import React from 'react';",
       "import { View } from 'react-native';",
@@ -142,7 +142,7 @@
     "description": "React Native component stateless with view children"
   },
   "StyleSheet Style": {
-    "prefix": "rnss",
+    "prefix": "jsrnss",
     "body": [
       "const styles = StyleSheet.create({",
       "\t$1",
@@ -151,342 +151,342 @@
     "description": "React Native Stylesheet"
   },
   "style={...}": {
-    "prefix": "sty",
+    "prefix": "jssty",
     "body": "style={{${1}}}",
     "description": "styleProps"
   },
   "justifyContent": {
-    "prefix": "just",
+    "prefix": "jsjust",
     "body": "justifyContent: '${1:center}',",
     "description": "justifyContent"
   },
   "alignItems": {
-    "prefix": "align",
+    "prefix": "jsalign",
     "body": "alignItems: '${1:center}',",
     "description": "alignItems"
   },
   "alignSelf": {
-    "prefix": "align",
+    "prefix": "jsalign",
     "body": "alignSelf: '${1:center}',",
     "description": "alignSelf"
   },
   "alignContent": {
-    "prefix": "align",
+    "prefix": "jsalign",
     "body": "alignContent: '${1}',",
     "description": "alignContent"
   },
   "aspectRatio": {
-    "prefix": "as",
+    "prefix": "jsas",
     "body": "aspectRatio: '${1}',",
     "description": "aspectRatio"
   },
   "borderBottomWidth": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderBottomWidth: ${1},",
     "description": "borderBottomWidth"
   },
   "borderLeftWidth": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderLeftWidth: ${1},",
     "description": "borderLeftWidth"
   },
   "borderRightWidth": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderRightWidth: ${1},",
     "description": "borderRightWidth"
   },
   "borderTopWidth": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderTopWidth: ${1},",
     "description": "borderTopWidth"
   },
   "borderWidth": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderWidth: ${1},",
     "description": "borderWidth"
   },
   "borderColor": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderColor: ${1},",
     "description": "borderColor"
   },
   "borderRadius": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderRadius: ${1},",
     "description": "borderRadius"
   },
   "borderLeftColor": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderLeftColor: ${1},",
     "description": "borderLeftColor"
   },
   "borderRightColor": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderRightColor: ${1},",
     "description": "borderRightColor"
   },
   "borderTopColor": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderTopColor: ${1},",
     "description": "borderTopColor"
   },
   "borderBottomColor": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderBottomColor: ${1},",
     "description": "borderBottomColor"
   },
   "borderBottomLeftRadius": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderBottomLeftRadius: ${1},",
     "description": "borderBottomLeftRadius"
   },
   "borderBottomRightRadius": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderBottomRightRadius: ${1},",
     "description": "borderBottomRightRadius"
   },
   "borderTopLeftRadius": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderTopLeftRadius: ${1},",
     "description": "borderTopLeftRadius"
   },
   "borderTopRightRadius": {
-    "prefix": "bor",
+    "prefix": "jsbor",
     "body": "borderTopRightRadius: ${1},",
     "description": "borderTopRightRadius"
   },
   "backgroundColor": {
-    "prefix": "bac",
+    "prefix": "jsbac",
     "body": "backgroundColor: ${1},",
     "description": "backgroundColor"
   },
   "display": {
-    "prefix": "di",
+    "prefix": "jsdi",
     "body": "display: '${1:none}',",
     "description": "display"
   },
   "opacity": {
-    "prefix": "op",
+    "prefix": "jsop",
     "body": "opacity: ${1},",
     "description": "opacity"
   },
   "shadowColor": {
-    "prefix": "sha",
+    "prefix": "jssha",
     "body": "shadowColor: '${1:none}',",
     "description": "shadowColor"
   },
   "shadowOffset": {
-    "prefix": "sha",
+    "prefix": "jssha",
     "body": "shadowOffset: ${1},",
     "description": "shadowOffset"
   },
   "shadowOpacity": {
-    "prefix": "sha",
+    "prefix": "jssha",
     "body": "shadowOpacity: ${1},",
     "description": "shadowOpacity"
   },
   "shadowRadius": {
-    "prefix": "sha",
+    "prefix": "jssha",
     "body": "shadowRadius: ${1},",
     "description": "shadowRadius"
   },
   "elevation": {
-    "prefix": "e",
+    "prefix": "jse",
     "body": "elevation: ${1},",
     "description": "elevation"
   },
   "flex": {
-    "prefix": "flex",
+    "prefix": "jsflex",
     "body": "flex: ${1},",
     "description": "flex"
   },
   "flexBasis": {
-    "prefix": "flex",
+    "prefix": "jsflex",
     "body": "flexBasis: '${1}',",
     "description": "flexBasis"
   },
   "flexDirection": {
-    "prefix": "flex",
+    "prefix": "jsflex",
     "body": "flexDirection: '${1:column}',",
     "description": "flexDirection"
   },
   "flexGrow": {
-    "prefix": "flex",
+    "prefix": "jsflex",
     "body": "flexGrow: '${1}',",
     "description": "flexGrow"
   },
   "flexShrink": {
-    "prefix": "flex",
+    "prefix": "jsflex",
     "body": "flexShrink: '${1}',",
     "description": "flexShrink"
   },
   "flexWrap": {
-    "prefix": "flex",
+    "prefix": "jsflex",
     "body": "flexWrap: '${1}',",
     "description": "flexWrap"
   },
   "fontSize": {
-    "prefix": "fo",
+    "prefix": "jsfo",
     "body": "fontSize: ${1},",
     "description": "fontSize"
   },
   "fontStyle": {
-    "prefix": "fo",
+    "prefix": "jsfo",
     "body": "fontStyle: '${1:normal}',",
     "description": "fontStyle"
   },
   "fontFamily": {
-    "prefix": "fo",
+    "prefix": "jsfo",
     "body": "fontFamily: '${1}',",
     "description": "fontFamily"
   },
   "fontWeight": {
-    "prefix": "fo",
+    "prefix": "jsfo",
     "body": "fontWeight: '${1:normal}',",
     "description": "fontWeight"
   },
   "height": {
-    "prefix": "h",
+    "prefix": "jsh",
     "body": "height: ${1},",
     "description": "height"
   },
   "left": {
-    "prefix": "l",
+    "prefix": "jsl",
     "body": "left: ${1},",
     "description": "left"
   },
   "margin": {
-    "prefix": "mar",
+    "prefix": "jsmar",
     "body": "margin: '${1}',",
     "description": "margin"
   },
   "marginBottom": {
-    "prefix": "mar",
+    "prefix": "jsmar",
     "body": "marginBottom: ${1},",
     "description": "marginBottom"
   },
   "marginHorizontal": {
-    "prefix": "mar",
+    "prefix": "jsmar",
     "body": "marginHorizontal: '${1}',",
     "description": "marginHorizontal"
   },
   "marginLeft": {
-    "prefix": "mar",
+    "prefix": "jsmar",
     "body": "marginLeft: ${1},",
     "description": "marginLeft"
   },
   "marginRight": {
-    "prefix": "mar",
+    "prefix": "jsmar",
     "body": "marginRight: ${1},",
     "description": "marginRight"
   },
   "marginTop": {
-    "prefix": "mar",
+    "prefix": "jsmar",
     "body": "marginTop: ${1},",
     "description": "marginTop"
   },
   "marginVertical": {
-    "prefix": "mar",
+    "prefix": "jsmar",
     "body": "marginVertical: '${1}',",
     "description": "marginVertical"
   },
   "maxHeight": {
-    "prefix": "max",
+    "prefix": "jsmax",
     "body": "maxHeight: ${1},",
     "description": "maxHeight"
   },
   "maxWidth": {
-    "prefix": "max",
+    "prefix": "jsmax",
     "body": "maxWidth: ${1},",
     "description": "maxWidth"
   },
   "minHeight": {
-    "prefix": "min",
+    "prefix": "jsmin",
     "body": "minHeight: ${1},",
     "description": "minHeight"
   },
   "minWidth": {
-    "prefix": "min",
+    "prefix": "jsmin",
     "body": "minWidth: ${1},",
     "description": "minWidth"
   },
   "overflow": {
-    "prefix": "over",
+    "prefix": "jsover",
     "body": "overflow: '${1}',",
     "description": "overflow"
   },
   "padding": {
-    "prefix": "padding",
+    "prefix": "jspadding",
     "body": "padding: ${1},",
     "description": "padding"
   },
   "paddingBottom": {
-    "prefix": "padding",
+    "prefix": "jspadding",
     "body": "paddingBottom: ${1},",
     "description": "paddingBottom"
   },
   "paddingHorizontal": {
-    "prefix": "padding",
+    "prefix": "jspadding",
     "body": "paddingHorizontal: ${1},",
     "description": "paddingHorizontal"
   },
   "paddingLeft": {
-    "prefix": "padding",
+    "prefix": "jspadding",
     "body": "paddingLeft: ${1},",
     "description": "paddingLeft"
   },
   "paddingRight": {
-    "prefix": "padding",
+    "prefix": "jspadding",
     "body": "paddingRight: ${1},",
     "description": "paddingRight"
   },
   "paddingTop": {
-    "prefix": "padding",
+    "prefix": "jspadding",
     "body": "paddingTop: ${1},",
     "description": "paddingTop"
   },
   "paddingVertical": {
-    "prefix": "padding",
+    "prefix": "jspadding",
     "body": "paddingVertical: ${1},",
     "description": "paddingVertical"
   },
   "position": {
-    "prefix": "pos",
+    "prefix": "jspos",
     "body": "position: ${1},",
     "description": "position"
   },
   "right": {
-    "prefix": "ri",
+    "prefix": "jsri",
     "body": "right: ${1},",
     "description": "right"
   },
   "top": {
-    "prefix": "top",
+    "prefix": "jstop",
     "body": "top: ${1},",
     "description": "top"
   },
   "width": {
-    "prefix": "w",
+    "prefix": "jsw",
     "body": "width: ${1},",
     "description": "width"
   },
   "zIndex": {
-    "prefix": "z",
+    "prefix": "jsz",
     "body": "zIndex: ${1},",
     "description": "zIndex"
   },
   "direction": {
-    "prefix": "di",
+    "prefix": "jsdi",
     "body": "direction: ${1},",
     "description": "direction"
   },
   "barStyle": {
-    "prefix": "bar",
+    "prefix": "jsbar",
     "body": "barStyle = '${1:light-content}'",
     "description": "barStyle"
   },
   "import redux statement": {
-    "prefix": "rx",
+    "prefix": "jsrx",
     "body": [
       "import { connect } from 'react-redux';",
       ""
@@ -494,7 +494,7 @@
     "description": "import { connect } from 'react-redux';"
   },
   "mappingToProps": {
-    "prefix": "rxmap",
+    "prefix": "jsrxmap",
     "body": [
       "const mapStateToProps = (state) => ({",
       "",
@@ -505,7 +505,7 @@
     ]
   },
   "reduxAction": {
-    "prefix": "rxaction",
+    "prefix": "jsrxaction",
     "body": [
       "export const ${1:actionName} = (${2:param}) => ({",
       "  type: ${3:type},",
@@ -515,11 +515,11 @@
     ]
   },
   "reduxConst": {
-    "prefix": "rxconst",
+    "prefix": "jsrxconst",
     "body": "export const ${1:constantName} = '${1:constantName}';"
   },
   "reduxReducer": {
-    "prefix": "rxreducer",
+    "prefix": "jsrxreducer",
     "body": [
       "const initialState = {",
       "",
@@ -539,7 +539,7 @@
     ]
   },
   "reduxSelector": {
-    "prefix": "rxselect",
+    "prefix": "jsrxselect",
     "body": [
       "import { createSelector } from 'reselect';",
       "",
@@ -548,7 +548,7 @@
     ]
   },
   "reactComponent": {
-    "prefix": "rcc",
+    "prefix": "jsrcc",
     "body": [
       "import React, { Component } from 'react';",
       "",
@@ -564,7 +564,7 @@
     "description": "React Component"
   },
   "reactComponentExport": {
-    "prefix": "rce",
+    "prefix": "jsrce",
     "body": [
       "import React, { Component } from 'react';",
       "",
@@ -582,7 +582,7 @@
     "description": "React Component Export"
   },
   "import React": {
-    "prefix": "imr",
+    "prefix": "jsimr",
     "body": [
       "import React from 'react';",
       ""
@@ -590,7 +590,7 @@
     "description": "import React from 'react';"
   },
   "import React, { Component }": {
-    "prefix": "imrc",
+    "prefix": "jsimrc",
     "body": [
       "import React, { Component } from 'react';",
       ""
@@ -598,12 +598,12 @@
     "description": "import React, { Component } from 'react';"
   },
   "Import React-Native Element": {
-    "prefix": "imrn",
+    "prefix": "jsimrn",
     "body": "import { $1 } from 'react-native';",
     "description": "Import React-Native Element"
   },
   "import React, { Component } & PropTypes": {
-    "prefix": "imrcp",
+    "prefix": "jsimrcp",
     "body": [
       "import React, { Component } from 'react';",
       "import PropTypes from 'prop-types';",
@@ -611,7 +611,7 @@
     ]
   },
   "import React, { PureComponent }": {
-    "prefix": "imrpc",
+    "prefix": "jsimrpc",
     "body": [
       "import React, { PureComponent } from 'react';",
       ""
@@ -619,7 +619,7 @@
     "description": "import React, { PureComponent } from 'react';"
   },
   "import React, { PureComponent } & PropTypes": {
-    "prefix": "imrpcp",
+    "prefix": "jsimrpcp",
     "body": [
       "import React, { PureComponent } from 'react';",
       "import PropTypes from 'prop-types';",
@@ -632,7 +632,7 @@
     ]
   },
   "classConstructor": {
-    "prefix": "rconst",
+    "prefix": "jsrconst",
     "body": [
       "constructor(props) {",
       "  super(props)",
@@ -646,7 +646,7 @@
     "description": "Adds a default constructor for it('', () => {})the class that contains props as arguments"
   },
   "emptyState": {
-    "prefix": "est",
+    "prefix": "jsest",
     "body": [
       "this.state = {",
       "  $1",
@@ -656,7 +656,7 @@
     "description": "Creates empty state object. To be used in a constructor."
   },
   "componentWillMount": {
-    "prefix": "cwm",
+    "prefix": "jscwm",
     "body": [
       "componentWillMount = () => {",
       "  $0",
@@ -666,7 +666,7 @@
     "description": "Invoked once, both on the client and server, immediately before the initial rendering occurs"
   },
   "componentDidMount": {
-    "prefix": "cdm",
+    "prefix": "jscdm",
     "body": [
       "componentDidMount = () => {",
       "  $0",
@@ -676,7 +676,7 @@
     "description": "Invoked once, only on the client (not on the server), immediately after the initial rendering occurs."
   },
   "componentWillReceiveProps": {
-    "prefix": "cwr",
+    "prefix": "jscwr",
     "body": [
       "componentWillReceiveProps = (nextProps) => {",
       "  $0",
@@ -686,7 +686,7 @@
     "description": "Invoked when a component is receiving new props. This method is not called for the initial render."
   },
   "shouldComponentUpdate": {
-    "prefix": "scu",
+    "prefix": "jsscu",
     "body": [
       "shouldComponentUpdate = (nextProps, nextState) => {",
       "  $0",
@@ -696,7 +696,7 @@
     "description": "Invoked before rendering when new props or state are being received. "
   },
   "componentWillUpdate": {
-    "prefix": "cwup",
+    "prefix": "jscwup",
     "body": [
       "componentWillUpdate = (nextProps, nextState) => {",
       "  $0",
@@ -706,7 +706,7 @@
     "description": "Invoked immediately before rendering when new props or state are being received."
   },
   "componentDidUpdate": {
-    "prefix": "cdup",
+    "prefix": "jscdup",
     "body": [
       "componentDidUpdate = (prevProps, prevState) => {",
       "  $0",
@@ -716,7 +716,7 @@
     "description": "Invoked immediately after the component's updates are flushed to the DOM."
   },
   "componentWillUnmount": {
-    "prefix": "cwun",
+    "prefix": "jscwun",
     "body": [
       "componentWillUnmount = () => {",
       "  $0",
@@ -726,7 +726,7 @@
     "description": "Invoked immediately before a component is unmounted from the DOM."
   },
   "componentRender": {
-    "prefix": "ren",
+    "prefix": "jsren",
     "body": [
       "render() {",
       "  return (",
@@ -739,12 +739,12 @@
     "description": "Basic render."
   },
   "componentSetStateObject": {
-    "prefix": "sst",
+    "prefix": "jssst",
     "body": "this.setState({$0})",
     "description": "Performs a shallow merge of nextState into current state"
   },
   "componentSetStateFunc": {
-    "prefix": "ssf",
+    "prefix": "jsssf",
     "body": [
       "this.setState((state, props) => { return { $0 }})",
       ""
@@ -752,39 +752,39 @@
     "description": "Performs a shallow merge of nextState into current state"
   },
   "import": {
-    "prefix": "imp",
+    "prefix": "jsimp",
     "body": "import ${2:moduleName} from '${1:module}';$0"
   },
   "importNoModuleName": {
-    "prefix": "imn",
+    "prefix": "jsimn",
     "body": "import '${1:module}';$0"
   },
   "importDestructing": {
-    "prefix": "imd",
+    "prefix": "jsimd",
     "body": "import { $2 } from '${1:module}';$0"
   },
   "importEverything": {
-    "prefix": "ime",
+    "prefix": "jsime",
     "body": "import * as ${2:alias} from '${1:module}';$0"
   },
   "importAs": {
-    "prefix": "ima",
+    "prefix": "jsima",
     "body": "import { ${2:originalName} as ${3:alias} } from '${1:module}';$0"
   },
   "exportDefault": {
-    "prefix": "exp",
+    "prefix": "jsexp",
     "body": "export default $1$0"
   },
   "exportDestructing": {
-    "prefix": "exd",
+    "prefix": "jsexd",
     "body": "export { $2 } from '${1:module}';$0"
   },
   "exportAs": {
-    "prefix": "exa",
+    "prefix": "jsexa",
     "body": "export { ${2:originalName} as ${3:alias} } from '${1:module}';$0"
   },
   "exportNamedFunction": {
-    "prefix": "enf",
+    "prefix": "jsenf",
     "body": [
       "export const ${1:functionName} = (${2:params}) => {",
       "  $0",
@@ -794,7 +794,7 @@
     "description": "Export named function in ES7 syntax"
   },
   "exportDefaultFunction": {
-    "prefix": "edf",
+    "prefix": "jsedf",
     "body": [
       "export default (${1:params}) => {",
       "  $0",
@@ -804,7 +804,7 @@
     "description": "Export default function in ES7 syntax"
   },
   "method": {
-    "prefix": "met",
+    "prefix": "jsmet",
     "body": [
       "${1:methodName} = (${2:params}) => {",
       "  ${0};",
@@ -814,7 +814,7 @@
     "description": "Creates a method inside a class in ES7 syntax"
   },
   "propertyGet": {
-    "prefix": "pge",
+    "prefix": "jspge",
     "body": [
       "get ${1:propertyName} = () => {",
       "  return this.${0};",
@@ -824,7 +824,7 @@
     "description": "Creates a getter property inside a class in ES7 syntax"
   },
   "propertyset": {
-    "prefix": "pse",
+    "prefix": "jspse",
     "body": [
       "set ${1:propertyName} = (${2:value}) => {",
       "  ${0};",
@@ -834,7 +834,7 @@
     "description": "Creates a setter property inside a class in ES7 syntax"
   },
   "forEach": {
-    "prefix": "fre",
+    "prefix": "jsfre",
     "body": [
       "${1:array}.forEach(${2:currentItem} => {",
       "  ${0}",
@@ -844,7 +844,7 @@
     "description": "Creates a forEach statement in ES7 syntax"
   },
   "forOf": {
-    "prefix": "fof",
+    "prefix": "jsfof",
     "body": [
       "for(let ${1:item} of ${2:object}) {",
       "  ${0}",
@@ -854,7 +854,7 @@
     "description": "Iterating over property names of iterable objects"
   },
   "forIn": {
-    "prefix": "fin",
+    "prefix": "jsfin",
     "body": [
       "for(let ${1:item} in ${2:object}) {",
       "  ${0}",
@@ -864,7 +864,7 @@
     "description": "Iterating over property values of iterable objects"
   },
   "anonymousFunction": {
-    "prefix": "anfn",
+    "prefix": "jsanfn",
     "body": [
       "(${1:params}) => {",
       "  ${2}",
@@ -874,7 +874,7 @@
     "description": "Creates an anonymous function in ES7 syntax"
   },
   "namedFunction": {
-    "prefix": "nfn",
+    "prefix": "jsnfn",
     "body": [
       "const ${1:name} = (${2:params}) => {",
       "  ${3}",
@@ -884,17 +884,17 @@
     "description": "Creates a named function in ES7 syntax"
   },
   "destructingObject": {
-    "prefix": "dob",
+    "prefix": "jsdob",
     "body": "const {${1:propertyName}} = ${2:objectToDestruct}",
     "description": "Creates and assigns a local variable using object destructing"
   },
   "destructingArray": {
-    "prefix": "dar",
+    "prefix": "jsdar",
     "body": "const [${1:propertyName}] = ${2:arrayToDestruct};",
     "description": "Creates and assigns a local variable using array destructing"
   },
   "setInterval": {
-    "prefix": "sti",
+    "prefix": "jssti",
     "body": [
       "setInterval(() => {",
       "  ${2}",
@@ -904,7 +904,7 @@
     "description": "Executes the given function at specified intervals in ES7 syntax"
   },
   "setTimeOut": {
-    "prefix": "sto",
+    "prefix": "jssto",
     "body": [
       "setTimeout(() => {",
       "  ${2}",
@@ -914,7 +914,7 @@
     "description": "Executes the given function after the specified delay in ES7 syntax"
   },
   "promise": {
-    "prefix": "prom",
+    "prefix": "jsprom",
     "body": [
       "return new Promise((resolve, reject) => {",
       "  ${1}",
@@ -924,67 +924,67 @@
     "description": "Creates and returns a new Promise in the standard ES7 syntax"
   },
   "consoleAssert": {
-    "prefix": "cas",
+    "prefix": "jscas",
     "body": "console.assert(${1:expression}, ${2:object})",
     "description": "If the specified expression is false, the message is written to the console along with a stack trace"
   },
   "consoleClear": {
-    "prefix": "ccl",
+    "prefix": "jsccl",
     "body": "console.clear()",
     "description": "Clears the console"
   },
   "consoleCount": {
-    "prefix": "cco",
+    "prefix": "jscco",
     "body": "console.count(${1:label})",
     "description": "Writes the the number of times that count() has been invoked at the same line and with the same label"
   },
   "consoleDir": {
-    "prefix": "cdi",
+    "prefix": "jscdi",
     "body": "console.dir(${1:object})",
     "description": "Prints a JavaScript representation of the specified object"
   },
   "consoleError": {
-    "prefix": "cer",
+    "prefix": "jscer",
     "body": "console.error(${1:object})",
     "description": "Displays a message in the console and also includes a stack trace from where the method was called"
   },
   "consoleGroup": {
-    "prefix": "cgr",
+    "prefix": "jscgr",
     "body": "console.group(\"${1:label}\")",
     "description": "Groups and indents all following output by an additional level, until console.groupEnd() is called."
   },
   "consoleGroupEnd": {
-    "prefix": "cge",
+    "prefix": "jscge",
     "body": "console.groupEnd()",
     "description": "Closes out the corresponding console.group()."
   },
   "consoleLog": {
-    "prefix": "clg",
+    "prefix": "jsclg",
     "body": "console.log(${1:object})",
     "description": "Displays a message in the console"
   },
   "consoleTrace": {
-    "prefix": "ctr",
+    "prefix": "jsctr",
     "body": "console.trace(${1:object})",
     "description": "Prints a stack trace from the point where the method was called"
   },
   "consoleWarn": {
-    "prefix": "cwa",
+    "prefix": "jscwa",
     "body": "console.warn(${1:object})",
     "description": "Displays a message in the console but also displays a yellow warning icon along with the logged message"
   },
   "consoleInfo": {
-    "prefix": "cin",
+    "prefix": "jscin",
     "body": "console.info(${1:object})",
     "description": "Displays a message in the console but also displays a blue information icon along with the logged message"
   },
   "ImportPropTypes": {
-    "prefix": "ipt",
+    "prefix": "jsipt",
     "body": "import PropTypes from 'prop-types';",
     "description": "import PropTypes from 'prop-types';"
   },
   "PropTypes": {
-    "prefix": "pt",
+    "prefix": "jspt",
     "body": [
       "${1}.propTypes = {",
       "",
@@ -993,7 +993,7 @@
     "description": "Create PropTypes"
   },
   "defaultProps": {
-    "prefix": "dfp",
+    "prefix": "jsdfp",
     "body": [
       "${1}.defaultProps = {",
       "",
@@ -1002,107 +1002,107 @@
     "description": "Create Default Props"
   },
   "propTypeArray": {
-    "prefix": "pta",
+    "prefix": "jspta",
     "body": "PropTypes.array,",
     "description": "Array prop type"
   },
   "propTypeArrayRequired": {
-    "prefix": "ptar",
+    "prefix": "jsptar",
     "body": "PropTypes.array.isRequired,",
     "description": "Array prop type required"
   },
   "propTypeBool": {
-    "prefix": "ptb",
+    "prefix": "jsptb",
     "body": "PropTypes.bool,",
     "description": "Bool prop type"
   },
   "propTypeBoolRequired": {
-    "prefix": "ptbr",
+    "prefix": "jsptbr",
     "body": "PropTypes.bool.isRequired,",
     "description": "Bool prop type required"
   },
   "propTypeFunc": {
-    "prefix": "ptf",
+    "prefix": "jsptf",
     "body": "PropTypes.func,",
     "description": "Func prop type"
   },
   "propTypeFuncRequired": {
-    "prefix": "ptfr",
+    "prefix": "jsptfr",
     "body": "PropTypes.func.isRequired,",
     "description": "Func prop type required"
   },
   "propTypeNumber": {
-    "prefix": "ptn",
+    "prefix": "jsptn",
     "body": "PropTypes.number,",
     "description": "Number prop type"
   },
   "propTypeNumberRequired": {
-    "prefix": "ptnr",
+    "prefix": "jsptnr",
     "body": "PropTypes.number.isRequired,",
     "description": "Number prop type required"
   },
   "propTypeObject": {
-    "prefix": "pto",
+    "prefix": "jspto",
     "body": "PropTypes.object,",
     "description": "Object prop type"
   },
   "propTypeObjectRequired": {
-    "prefix": "ptor",
+    "prefix": "jsptor",
     "body": "PropTypes.object.isRequired,",
     "description": "Object prop type required"
   },
   "propTypeString": {
-    "prefix": "pts",
+    "prefix": "jspts",
     "body": "PropTypes.string,",
     "description": "String prop type"
   },
   "propTypeStringRequired": {
-    "prefix": "ptsr",
+    "prefix": "jsptsr",
     "body": "PropTypes.string.isRequired,",
     "description": "String prop type required"
   },
   "propTypeNode": {
-    "prefix": "ptnd",
+    "prefix": "jsptnd",
     "body": "PropTypes.node,",
     "description": "Anything that can be rendered: numbers, strings, elements or an array"
   },
   "propTypeNodeRequired": {
-    "prefix": "ptndr",
+    "prefix": "jsptndr",
     "body": "PropTypes.node.isRequired,",
     "description": "Anything that can be rendered: numbers, strings, elements or an array required"
   },
   "propTypeElement": {
-    "prefix": "ptel",
+    "prefix": "jsptel",
     "body": "PropTypes.element,",
     "description": "React element prop type"
   },
   "propTypeElementRequired": {
-    "prefix": "ptelr",
+    "prefix": "jsptelr",
     "body": "PropTypes.element.isRequired,",
     "description": "React element prop type required"
   },
   "propTypeInstanceOf": {
-    "prefix": "pti",
+    "prefix": "jspti",
     "body": "PropTypes.instanceOf($0),",
     "description": "Is an instance of a class prop type"
   },
   "propTypeInstanceOfRequired": {
-    "prefix": "ptir",
+    "prefix": "jsptir",
     "body": "PropTypes.instanceOf($0).isRequired,",
     "description": "Is an instance of a class prop type required"
   },
   "propTypeEnum": {
-    "prefix": "pte",
+    "prefix": "jspte",
     "body": "PropTypes.oneOf(['$0']),",
     "description": "Prop type limited to specific values by treating it as an enum"
   },
   "propTypeEnumRequired": {
-    "prefix": "pter",
+    "prefix": "jspter",
     "body": "PropTypes.oneOf(['$0']).isRequired,",
     "description": "Prop type limited to specific values by treating it as an enum required"
   },
   "propTypeOneOfType": {
-    "prefix": "ptet",
+    "prefix": "jsptet",
     "body": [
       "PropTypes.oneOfType([",
       "  $0",
@@ -1111,7 +1111,7 @@
     "description": "An object that could be one of many types"
   },
   "propTypeOneOfTypeRequired": {
-    "prefix": "ptetr",
+    "prefix": "jsptetr",
     "body": [
       "PropTypes.oneOfType([",
       "  $0",
@@ -1120,27 +1120,27 @@
     "description": "An object that could be one of many types required"
   },
   "propTypeArrayOf": {
-    "prefix": "ptao",
+    "prefix": "jsptao",
     "body": "PropTypes.arrayOf($0),",
     "description": "An array of a certain type"
   },
   "propTypeArrayOfRequired": {
-    "prefix": "ptaor",
+    "prefix": "jsptaor",
     "body": "PropTypes.arrayOf($0).isRequired,",
     "description": "AcomponentNamen array of a certain type required"
   },
   "propTypeObjectOf": {
-    "prefix": "ptoo",
+    "prefix": "jsptoo",
     "body": "PropTypes.objectOf($0),",
     "description": "An object with property values of a certain type"
   },
   "propTypeObjectOfRequired": {
-    "prefix": "ptoor",
+    "prefix": "jsptoor",
     "body": "PropTypes.objectOf($0).isRequired,",
     "description": "An object with property values of a certain type required"
   },
   "propTypeShape": {
-    "prefix": "ptsh",
+    "prefix": "jsptsh",
     "body": [
       "PropTypes.shape({",
       "  $0",
@@ -1149,7 +1149,7 @@
     "description": "An object taking on a particular shape"
   },
   "propTypeShapeRequired": {
-    "prefix": "ptshr",
+    "prefix": "jsptshr",
     "body": [
       "PropTypes.shape({",
       "  $0",
@@ -1158,7 +1158,7 @@
     "description": "An object taking on a particular shape required"
   },
   "Comment Big Block": {
-    "prefix": "cmmb",
+    "prefix": "jscmmb",
     "body": [
       "/**",
       "|--------------------------------------------------",
@@ -1168,7 +1168,7 @@
     ]
   },
   "Full Region Block": {
-    "prefix": "fregion",
+    "prefix": "jsfregion",
     "body": [
       "// #region ${1:title}",
       "",
@@ -1178,7 +1178,7 @@
     ]
   },
   "describeBlock": {
-    "prefix": "desc",
+    "prefix": "jsdesc",
     "body": [
       "describe('$1', () => {",
       "  $0",
@@ -1188,7 +1188,7 @@
     "description": "Testing `describe` block"
   },
   "testBlock": {
-    "prefix": "test",
+    "prefix": "jstest",
     "body": [
       "test('should $1', () => {",
       "  $0",
@@ -1198,7 +1198,7 @@
     "description": "Testing `test` block"
   },
   "itBlock": {
-    "prefix": "tit",
+    "prefix": "jstit",
     "body": [
       "it('should $1', () => {",
       "  $0",
@@ -1208,7 +1208,7 @@
     "description": "Testing `it` block"
   },
   "setupTest": {
-    "prefix": "stest",
+    "prefix": "jsstest",
     "body": [
       "import { ${1:ComponentName}, mapStateToProps, mapDispatchToProps } from '../${1:ComponentName}';",
       "",
@@ -1227,7 +1227,7 @@
     ]
   },
   "setupTestWithEnzymeToJson": {
-    "prefix": "sjtest",
+    "prefix": "jssjtest",
     "body": [
       "import toJson from 'enzyme-to-json';",
       "import { ${1:ComponentName}, mapStateToProps, mapDispatchToProps } from '../${1:ComponentName}';",
@@ -1247,7 +1247,7 @@
     ]
   },
   "setupReactNativeTest": {
-    "prefix": "sntest",
+    "prefix": "jssntest",
     "body": [
       "import 'react-native';",
       "import React from 'react';",
@@ -1264,14 +1264,14 @@
     ]
   },
   "graphQLForComponent": {
-    "prefix": "graphql",
+    "prefix": "jsgraphql",
     "body": [
       "import { compose, graphql } from 'react-apollo';",
       ""
     ]
   },
   "exportGraphQL": {
-    "prefix": "expgql",
+    "prefix": "jsexpgql",
     "body": [
       "export default compose(",
       "  graphql(${1:queryOrMutation}, { name: ${2:name} }),",
@@ -1279,7 +1279,7 @@
     ]
   },
   "hocComponentWithRedux": {
-    "prefix": "hocredux",
+    "prefix": "jshocredux",
     "body": [
       "import React from 'react';",
       "import PropTypes from 'prop-types';",
@@ -1307,7 +1307,7 @@
     ]
   },
   "hocComponent": {
-    "prefix": "hoc",
+    "prefix": "jshoc",
     "body": [
       "import React from 'react';",
       "import PropTypes from 'prop-types';",
@@ -1324,12 +1324,12 @@
     ]
   },
   "EslintDisableLine": {
-    "prefix": "edl",
+    "prefix": "jsedl",
     "body": "// eslint-disable-line",
     "description": "Eslint Disable Line"
   },
   "Comment Block": {
-    "prefix": "cm",
+    "prefix": "jscm",
     "body": [
       "/**",
       " * ${1}",
@@ -1337,12 +1337,12 @@
     ]
   },
   "LoremIpsumOnce": {
-    "prefix": "li1",
+    "prefix": "jsli1",
     "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   "LoremIpsumTwo": {
-    "prefix": "li2",
+    "prefix": "jsli2",
     "body": [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
@@ -1353,7 +1353,7 @@
     ]
   },
   "LoremIpsumThree": {
-    "prefix": "li3",
+    "prefix": "jsli3",
     "body": [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -1366,7 +1366,7 @@
     ]
   },
   "LoremIpsumFour": {
-    "prefix": "li4",
+    "prefix": "jsli4",
     "body": [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -1381,7 +1381,7 @@
     ]
   },
   "LoremIpsumFive": {
-    "prefix": "li5",
+    "prefix": "jsli5",
     "body": [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
